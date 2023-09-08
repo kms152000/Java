@@ -12,6 +12,7 @@ public class Student {
 	public int getNo() { return no; }
 	public String getName() { return name; }
 	
+	//재정의를 주석처리 할 경우 s1, s2는 동등 객체가 아니게 되므로 따로 저장된다. 
 	@Override
 	public int hashCode() {
 		int hashCode = no + name.hashCode();
