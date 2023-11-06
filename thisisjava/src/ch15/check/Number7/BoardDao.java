@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BoardDao {
 
-	public List<Board> getBoardLost() {
+	public List<Board> getBoardList() {
 		
 		List<Board> list = new ArrayList<Board>(); 
 		list.add(new Board("제목1", "내용1"));
