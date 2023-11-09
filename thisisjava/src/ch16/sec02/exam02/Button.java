@@ -13,7 +13,7 @@ public class Button {
 	private ClickListener cL;
 	
 	//메소드
-	public void setClickListner(ClickListner cL) {
+	public void setClickListner(ClickListener cL) {
 		this.cL = cL;
 	}
 	
